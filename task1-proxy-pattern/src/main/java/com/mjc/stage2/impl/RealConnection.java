@@ -26,6 +26,7 @@ public class RealConnection implements Connection {
 
     @Override
     public boolean isClosed() {
+
         return isClosed;
     }
 }
